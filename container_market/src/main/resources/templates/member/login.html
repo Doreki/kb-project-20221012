@@ -14,6 +14,7 @@
     
     <link rel="stylesheet" href="/static/css/reset.css">
     <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/login.css">
     
 </head>
 <body>
@@ -36,7 +37,7 @@
             </div>
         </header>
         <main id="main">
-            <nav class="side_bar">
+            <nav class="side-bar">
                 <div class="nav-01">
                     <ul>
                         <li><a href="#">NEW 5%</a></li>
@@ -62,12 +63,37 @@
                         <li><a href="https://www.facebook.com/containermarket.co.kr" target="_blank"><i class="fa-brands fa-facebook-f"></i><span>FACEBOOK</span></a></li>
                     </ul>
                 </div>
-                <div class="kakao_btn"><a href="#none" onclick="popWin=window.open('https://pf.kakao.com/_UnGss','windows','width=600,height=670,scrollbars=yes'); popWin.focus(); return false;" class="kakao"><img src="/images/kakao_btn.png"></a></div>
-                
+                <div class="kakao_btn"><a href="#none" onclick="popWin=window.open('https://pf.kakao.com/_UnGss','windows','width=600,height=670,scrollbars=yes'); popWin.focus(); return false;" class="kakao"><img src="/static/images/kakao_btn.png"></a></div>
                 
                 
             </nav>
 
+            <div id="contents">
+                <div class="title-area">
+                    <h2 class="login-subtitle">LOGIN</h2>
+                </div>
+                <div class="login-area">            
+                    <section class="login-current">
+                        <form action="" method="">
+                            <div class="login-left">
+                                <input type="email" class="login-input" name="username" placeholder="아이디">
+                                <input type="password" class="login-input" name="password" placeholder="비밀번호">
+                            </div>
+                            <button type="submit" class="btn login-button">로그인</button>
+                            
+                        </form>
+                        <p class="security">
+                            <img src="/static/images/ico_access.gif" alt="보안접속"> 보안접속             </p>
+                        <div class="link-area">
+                            <ul>
+                                <li><a class="login-search" href="#">아이디찾기</a></li>
+                                <li><a class="password-search" href="#">비밀번호찾기</a></li>
+                                <li><a class="register-page" href="#">회원가입</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </main>
         <footer></footer>
         
