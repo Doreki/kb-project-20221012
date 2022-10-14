@@ -102,7 +102,7 @@ td{
     color: #353535;
     vertical-align: middle;
     word-break: break-all;
-    word-wrap: brea-word;
+    word-wrap: break-word;
 }
 
 .ec-base-button {

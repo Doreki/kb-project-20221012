@@ -4,21 +4,10 @@ server:
 spring:
   mvc:
     static-path-pattern: /static/**
-<<<<<<< HEAD
 
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mariadb://database-1.citk838y6vgk.ap-northeast-2.rds.amazonaws.com:3306/stussy-20220930
-=======
-  security:
-    user:
-      name: test@naver.com
-      password: 1q2w3e4r!
-
-  datasource:
-    driver-class-name: org.mariadb.jdbc.Driver
-    url: jdbc:mariadb://database-1.cwub1r3zs8ny.ap-northeast-2.rds.amazonaws.com:3306/stussy-20220930
->>>>>>> cabe306394ba64e0251abd01dbb33a45c54a315d
     username: admin
     password: 1q2w3e4r
 
