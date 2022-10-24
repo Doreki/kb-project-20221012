@@ -23,7 +23,5 @@ public class MainController {
         return "/myShop/index";
     }
     @GetMapping("/myShop/order")
-    public String myShopOrder() {
-        return "/myShop/order";
+    public String myShopOrder() {return "/myShop/order"; }
     }
-}
