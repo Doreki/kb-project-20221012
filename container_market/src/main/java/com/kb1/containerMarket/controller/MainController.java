@@ -22,6 +22,12 @@ public class MainController {
     public String myShopIndex() {
         return "/myShop/index";
     }
+<<<<<<< HEAD
     @GetMapping("/myShop/order")
     public String myShopOrder() {return "/myShop/order"; }
+=======
+    @GetMapping("/myShop/order/list")
+    public String myShopOrder() {
+        return "/myShop/order/list";
+>>>>>>> 3cc05b08bbd643ccd1aec0c6c909b8ab12b73d7b
     }
